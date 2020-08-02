@@ -8,9 +8,9 @@ Download the repository files and execute vision.py file to run the script.
 
 ## Options
 
-# Change behavior on key press
+### Change behavior on key press
 
-# key - description of the key
+### key - description of the key
 
 * r - Change color to Red.
 * g - Change color to Green.
