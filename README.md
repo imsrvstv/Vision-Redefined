@@ -19,6 +19,7 @@ Download the repository files and execute vision.py file to run the script.
 * 1 - Change color to Grayscale.
 * 2 - Change color to HSV.
 * z - Revert color changes.
+* q - Quit the Camera.
 
 ### Prerequisites
 
