@@ -46,7 +46,6 @@ while True:
     else:    
         cv2.imshow("Video", cv2.flip(frame, 1))
 
-print(a)
 cv2.destroyAllWindows()
 
 video.release()
