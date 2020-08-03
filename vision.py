@@ -1,6 +1,7 @@
 import cv2
+import os
 
-
+os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = '0'
 video = cv2.VideoCapture(0)
 
 a = 0
@@ -45,6 +46,7 @@ while True:
         cv2.imshow("Video", frame)
     else:    
         cv2.imshow("Video", cv2.flip(frame, 1))
+
 
 cv2.destroyAllWindows()
 
